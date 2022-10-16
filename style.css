@@ -1,0 +1,291 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media  screen and (orientation: landscape) and (min-width: 768px){
+  .part2{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+    .c_slider{
+      margin-top: 50px;
+      width: 100%; /*ajustez pour le responsive*/
+      min-width: 400px;
+      max-width: 1000px; /*ajustez pour le responsive*/
+      min-height: 250px;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+      .c_slider > .c_texte{
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transition: left 1s;
+        position: absolute;
+        top: 0;
+        left: -100%;
+      }
+
+        .c_slider > .c_texte > div{
+          height: 200px;
+          width: 400px;
+          position: relative;
+        }
+
+          .c_slider > .c_texte > div > p{
+            padding: 20px;
+            font-size: 1.2em;
+            font-family: "calibri";
+            text-align: center;
+          }
+
+      .c_slider > .c_btn{
+        height: 50px; /*ajustez pour le responsive*/
+        width: 100%;
+        aspect-ratio: 16/9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+
+        .btn-slider{
+          padding: 0;
+          color: #D81E5B; /*mettre valeur de la variable js color*/
+          background-color: inherit;
+          border: none;
+          outline: none;
+        }
+
+        .btn-slider > svg{
+          height: 30px; /*ajustez pour le responsive*/
+          aspect-ratio: 1/1;
+          transition: height 0.5s, width 0.5s;
+        }
+
+        .btn-slider:hover > svg{
+          height: 40px; /*ajustez pour le responsive*/
+        }
+
+        .circle{
+          height: 15px;
+          margin: 0 5px;
+          aspect-ratio: 1/1;
+          border: 2px solid #D81E5B; /*mettre valeur de la variable js color | ajustez pour le responsive*/
+          border-radius: 100%;
+          transition: background-color 1s;
+        }
+
+    .book{
+      margin: 20px;
+      padding: 10px 20px;
+      font-size: 1.5em;
+      font-family: "calibri", sans-serif;
+      color: #fff;
+      background-image: linear-gradient(90deg,#F2263A,#D81E5B);
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      transition: padding 0.2s;
+    }
+
+    .book:hover{
+      padding: 10px 40px;
+      cursor: pointer;
+    }
+
+  .part1{
+    width: calc(100vw - 400px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF8E8;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+    .c_slider2{
+      width: 100%; /*ajustez pour le responsive*/
+      max-width: 1000px; /*ajustez pour le responsive*/
+      aspect-ratio: 16/9;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+      .c_slider2 > .c_img{
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transition: left 1s;
+        position: absolute;
+        top: 0;
+        left: -100%;
+      }
+
+        .c_slider2 > .c_img > img{
+          height: 100%;
+          aspect-ratio: 16/9;
+        }
+}
+
+@media  screen and (orientation: portrait){
+  .part2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: calc(9 * 100vw / 16);
+    right: 0;
+  }
+  
+    .c_slider{
+      margin-top: 50px;
+      width: 80vw; /*ajustez pour le responsive*/
+      min-height: 250px;
+      overflow-x: hidden;
+      position: relative;
+    }
+  
+      .c_slider > .c_texte{
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transition: left 1s;
+        position: absolute;
+        top: 0;
+        left: -100%;
+      }
+  
+        .c_slider > .c_texte > div{
+          height: 200px;
+          width: 80vw;
+          position: relative;
+        }
+  
+          .c_slider > .c_texte > div > p{
+            padding: 20px;
+            font-size: 1.2em;
+            font-family: "calibri";
+            text-align: center;
+          }
+  
+      .c_slider > .c_btn{
+        height: 50px; /*ajustez pour le responsive*/
+        width: 100%;
+        aspect-ratio: 16/9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+  
+        .btn-slider{
+          padding: 0;
+          color: #D81E5B; /*mettre valeur de la variable js color*/
+          background-color: inherit;
+          border: none;
+          outline: none;
+        }
+  
+        .btn-slider > svg{
+          height: 30px; /*ajustez pour le responsive*/
+          aspect-ratio: 1/1;
+          transition: height 0.5s, width 0.5s;
+        }
+  
+        .btn-slider:hover > svg{
+          height: 40px; /*ajustez pour le responsive*/
+        }
+  
+        .circle{
+          height: 15px;
+          margin: 0 5px;
+          aspect-ratio: 1/1;
+          border: 2px solid #D81E5B; /*mettre valeur de la variable js color | ajustez pour le responsive*/
+          border-radius: 100%;
+          transition: background-color 1s;
+        }
+  
+    .book{
+      margin: 20px;
+      padding: 10px 20px;
+      font-size: 1.5em;
+      font-family: "calibri", sans-serif;
+      color: #fff;
+      background-image: linear-gradient(90deg,#F2263A,#D81E5B);
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      transition: padding 0.2s;
+    }
+  
+    .book:hover{
+      padding: 10px 40px;
+      cursor: pointer;
+    }
+  
+  .part1{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF8E8;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+    .c_slider2{
+      width: 100%; /*ajustez pour le responsive*/
+      max-width: 1000px; /*ajustez pour le responsive*/
+      aspect-ratio: 16/9;
+      overflow-x: hidden;
+      position: relative;
+    }
+  
+      .c_slider2 > .c_img{
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transition: left 1s;
+        position: absolute;
+        top: 0;
+        left: -100%;
+      }
+  
+        .c_slider2 > .c_img > img{
+          height: 100%;
+          aspect-ratio: 16/9;
+        }
+}
