@@ -194,7 +194,7 @@ body{
           }
   
       .c_slider > .c_btn{
-        height: 50px; /*ajustez pour le responsive*/
+        height: 80px; /*ajustez pour le responsive*/
         width: 100%;
         aspect-ratio: 16/9;
         display: flex;
@@ -233,7 +233,7 @@ body{
         }
   
     .book{
-      margin: 40px;
+      margin: 80px;
       padding: 20px 40px;
       font-size: 4em;
       font-family: "calibri", sans-serif;
