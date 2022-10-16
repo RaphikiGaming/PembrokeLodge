@@ -1,3 +1,8 @@
+function book(){
+  alert("Thanks for your trust but this page is used as an illustration for an english final task.");
+}
+
+
 var btn_slider_l = document.querySelector(".btn-slider-left");
 var btn_slider_r = document.querySelector(".btn-slider-right");
 var c_img = document.querySelector(".c_slider").querySelector(".c_texte");
