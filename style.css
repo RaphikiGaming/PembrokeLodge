@@ -162,7 +162,7 @@ body{
   
     .c_slider{
       margin-top: 50px;
-      width: 90vw; /*ajustez pour le responsive*/
+      width: 100vw; /*ajustez pour le responsive*/
       min-height: 500px;
       overflow-x: hidden;
       position: relative;
@@ -182,7 +182,7 @@ body{
   
         .c_slider > .c_texte > div{
           height: 200px;
-          width: 90vw;
+          width: 100vw;
           position: relative;
         }
   
@@ -220,7 +220,7 @@ body{
         }
   
         .btn-slider:hover > svg{
-          height: 40px; /*ajustez pour le responsive*/
+          height: 80px; /*ajustez pour le responsive*/
         }
   
         .circle{
