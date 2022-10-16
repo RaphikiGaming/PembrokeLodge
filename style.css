@@ -162,7 +162,7 @@ body{
   
     .c_slider{
       margin-top: 50px;
-      width: 80vw; /*ajustez pour le responsive*/
+      width: 90vw; /*ajustez pour le responsive*/
       min-height: 500px;
       overflow-x: hidden;
       position: relative;
@@ -182,7 +182,7 @@ body{
   
         .c_slider > .c_texte > div{
           height: 200px;
-          width: 80vw;
+          width: 90vw;
           position: relative;
         }
   
