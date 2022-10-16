@@ -188,7 +188,7 @@ body{
   
           .c_slider > .c_texte > div > p{
             padding: 40px;
-            font-size: 12em;
+            font-size: 2.4em;
             font-family: "calibri";
             text-align: center;
           }
@@ -235,7 +235,7 @@ body{
     .book{
       margin: 40px;
       padding: 20px 40px;
-      font-size: 15em;
+      font-size: 3em;
       font-family: "calibri", sans-serif;
       color: #fff;
       background-image: linear-gradient(90deg,#F2263A,#D81E5B);
