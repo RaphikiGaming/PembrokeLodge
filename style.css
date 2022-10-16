@@ -36,7 +36,7 @@ body{
         transition: left 1s;
         position: absolute;
         top: 0;
-        left: -100%;
+        left: 0%;
       }
 
         .c_slider > .c_texte > div{
@@ -139,7 +139,7 @@ body{
         transition: left 1s;
         position: absolute;
         top: 0;
-        left: -100%;
+        left: 0%;
       }
 
         .c_slider2 > .c_img > img{
@@ -177,7 +177,7 @@ body{
         transition: left 1s;
         position: absolute;
         top: 0;
-        left: -100%;
+        left: 0%;
       }
   
         .c_slider > .c_texte > div{
@@ -281,7 +281,7 @@ body{
         transition: left 1s;
         position: absolute;
         top: 0;
-        left: -100%;
+        left: 0%;
       }
   
         .c_slider2 > .c_img > img{
